@@ -1,0 +1,14 @@
+
+
+USE  STACKOVERFLOW;
+GO
+
+CREATE TABLE tags
+(
+    id VARCHAR ( 255 ) PRIMARY KEY ,
+    tag VARCHAR ( 255 ) NOT NULL ,
+    description VARCHAR ( 255 ) NOT NULL ,
+    created_at DATETIME NOT NULL DEFAULT GETDATE(),
+    updated_at DATETIME NOT NULL DEFAULT GETDATE(),
+    is_deleted BIT DEFAULT  0
+);

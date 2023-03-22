@@ -18,14 +18,17 @@
     "joi": "^17.9.1",
     "jsonwebtoken": "^9.0.0",
     "mssql": "^9.1.1",
+    "node-emoji": "^1.11.0",
     "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.0",
+    "@types/cors": "^2.8.13",
     "@types/express": "^4.17.17",
     "@types/jsonwebtoken": "^9.0.1",
     "@types/mssql": "^8.1.2",
     "@types/node": "^18.15.5",
+    "@types/node-emoji": "^1.8.2",
     "@types/uuid": "^9.0.1"
   }
 }

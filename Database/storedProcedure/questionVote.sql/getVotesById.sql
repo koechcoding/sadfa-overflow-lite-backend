@@ -1,0 +1,10 @@
+USE STACKOVERFLOW;
+GO
+
+
+CREATE OR ALTER PROCEDURE getQuestionVoteById
+    @id VARCHAR ( 255 )
+AS
+BEGIN
+    SELECT * FROM question_votes WHERE id = @id
+END

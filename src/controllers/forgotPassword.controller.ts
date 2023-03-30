@@ -4,7 +4,7 @@ import db from "../databasehelper/db-connection";
 import UserModel from "../models/user.model";
 import dotenv from "dotenv";
 import path from "path";
-import sendMail from "../utils/email-helpers/email.helper";
+import sendMail from "../email-helpers/email.helper";
 dotenv.config({ path: path.join(__dirname, "../../.env") });
 
 
